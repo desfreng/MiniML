@@ -1,0 +1,11 @@
+(menhir
+  (flags -v)
+  (modules mmlparser)
+)
+
+(ocamllex mmllexer)
+
+(executable
+ (public_name MiniMl)
+ (name mmlcat))
+
