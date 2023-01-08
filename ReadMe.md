@@ -83,6 +83,7 @@ Les opérateurs d'égalité et d'inégalité structurels :
 
 - ``( = ) -> a' -> a' -> bool``
 - ``( <> ) -> a' -> a' -> bool``
+
 on été implémentés. 
 
 On veillera, dans le cas de structures reccursives, à ne pas boucler infiniment lors du test
