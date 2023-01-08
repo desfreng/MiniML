@@ -5,7 +5,6 @@
 
 (ocamllex mmllexer)
 
-(executable
- (public_name MiniMl)
- (name mmlcat))
-
+(executables
+ (names mmli mmlcat)
+ (public_names mmli mmlcat))

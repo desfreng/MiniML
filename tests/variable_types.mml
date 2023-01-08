@@ -1,0 +1,2 @@
+let not_struct_equals a b = a <> b in
+not_struct_equals

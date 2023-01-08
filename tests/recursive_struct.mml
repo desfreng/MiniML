@@ -1,0 +1,14 @@
+type int_list = { value: int; next: int_list; }
+
+let rec anchor = { value = 0; next = anchor; }  in
+
+let rec build_int_list i =
+  if i = 0
+  then anchor
+  else { value = i; next = (build_int_list (i - 1)); }
+in
+let my_int_list = build_int_list 10
+in
+let rec sum_list_of_int l = 
+  if l.next = l then l.value else l.value + sum_list_of_int l.next
+in sum_list_of_int my_int_list

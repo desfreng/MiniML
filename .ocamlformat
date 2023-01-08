@@ -1,3 +1,6 @@
 profile = default
 version = 0.21.0
-if-then-else = k-r
+if-then-else = keyword-first
+margin = 100
+cases-exp-indent = 4
+cases-matching-exp-indent = normal
